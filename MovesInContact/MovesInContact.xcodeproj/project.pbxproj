@@ -20,6 +20,7 @@
 		FAFDE0381B052DA000F74D45 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFDE0371B052DA000F74D45 /* StoreKit.framework */; };
 		FAFDE03A1B052DB200F74D45 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFDE0391B052DB200F74D45 /* MapKit.framework */; };
 		FAFDE03C1B052E7900F74D45 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFDE03B1B052E7900F74D45 /* HealthKit.framework */; };
+		FAFDE03E1B05338000F74D45 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAFDE03D1B05338000F74D45 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		FAFDE0371B052DA000F74D45 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		FAFDE0391B052DB200F74D45 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		FAFDE03B1B052E7900F74D45 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		FAFDE03D1B05338000F74D45 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		FAFDDFFC1B052CD900F74D45 = {
 			isa = PBXGroup;
 			children = (
+				FAFDE03D1B05338000F74D45 /* Default-568h@2x.png */,
 				FAFDE03B1B052E7900F74D45 /* HealthKit.framework */,
 				FAFDE0391B052DB200F74D45 /* MapKit.framework */,
 				FAFDE0371B052DA000F74D45 /* StoreKit.framework */,
@@ -250,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAFDE01A1B052CDA00F74D45 /* Main.storyboard in Resources */,
+				FAFDE03E1B05338000F74D45 /* Default-568h@2x.png in Resources */,
 				FAFDE01F1B052CDA00F74D45 /* LaunchScreen.xib in Resources */,
 				FAFDE01C1B052CDA00F74D45 /* Images.xcassets in Resources */,
 			);
@@ -399,10 +403,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = MovesInContact/MovesInContact.entitlements;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = MovesInContact.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEPLOYMENT_LOCATION = NO;
-				INFOPLIST_FILE = MovesInContact/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,10 +419,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = MovesInContact/MovesInContact.entitlements;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = MovesInContact.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEPLOYMENT_LOCATION = NO;
-				INFOPLIST_FILE = MovesInContact/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -478,6 +484,7 @@
 				FAFDE0301B052CDA00F74D45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAFDE0311B052CDA00F74D45 /* Build configuration list for PBXNativeTarget "MovesInContactTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +493,7 @@
 				FAFDE0331B052CDA00F74D45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
