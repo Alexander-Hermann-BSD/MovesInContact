@@ -16,6 +16,8 @@
 		<string>https://github.com/vitoziv/moves-ios-sdk.git</string>
 		<key>DD20A1A48C66B5213E0FEBB87A95EF51D6C6F3E8</key>
 		<string>https://github.com/AFNetworking/AFNetworking.git</string>
+		<key>E78D135E90DB470AC6DA4B66F4F98F92C670CE76</key>
+		<string>https://github.com/rexstjohn/FourSquareKit.git</string>
 		<key>F156E177F8E9A7362DEEA6362D6989C90D475E4E</key>
 		<string>https://github.com/Alexander-Hermann-BSD/MovesInContact.git</string>
 	</dict>
@@ -24,11 +26,13 @@
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>09CB9FE0086C719D9651282A3ABB8F5A2B7E1EF3</key>
-		<string>../../../evernote-sdk-ios</string>
+		<string>../../evernote-sdk-ios</string>
 		<key>53911DA2ECAA79823266AABA8D561974C51A4F7E</key>
-		<string>../../../Moves-SDKs/moves-ios-sdk</string>
+		<string>../../Moves-SDKs/moves-ios-sdk</string>
 		<key>DD20A1A48C66B5213E0FEBB87A95EF51D6C6F3E8</key>
-		<string>../../../SDKs/AFNetworking</string>
+		<string>../../SDKs/AFNetworking</string>
+		<key>E78D135E90DB470AC6DA4B66F4F98F92C670CE76</key>
+		<string>../../../SDKs/FourSquareKit</string>
 		<key>F156E177F8E9A7362DEEA6362D6989C90D475E4E</key>
 		<string>..</string>
 	</dict>
@@ -55,6 +59,14 @@
 			<string>09CB9FE0086C719D9651282A3ABB8F5A2B7E1EF3</string>
 			<key>IDESourceControlWCCName</key>
 			<string>evernote-sdk-ios</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E78D135E90DB470AC6DA4B66F4F98F92C670CE76</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FourSquareKit</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>

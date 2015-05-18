@@ -24,6 +24,7 @@
 		FA059D011B070449008FE560 /* EvernoteSDK in Frameworks */ = {isa = PBXBuildFile; fileRef = FA059D001B070449008FE560 /* EvernoteSDK */; settings = {ATTRIBUTES = (Weak, ); }; };
 		FA059D031B070487008FE560 /* AFNetworking in Frameworks */ = {isa = PBXBuildFile; fileRef = FA059D021B070487008FE560 /* AFNetworking */; settings = {ATTRIBUTES = (Weak, ); }; };
 		FA059D051B0704AA008FE560 /* UIKit+AFNetworking in Frameworks */ = {isa = PBXBuildFile; fileRef = FA059D041B0704AA008FE560 /* UIKit+AFNetworking */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FABBCF931B0A5A3500124924 /* FourSquareKit-iOS in Frameworks */ = {isa = PBXBuildFile; fileRef = FABBCF921B0A5A3500124924 /* FourSquareKit-iOS */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		FA059D001B070449008FE560 /* EvernoteSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; name = EvernoteSDK; path = "../../../evernote-sdk-ios/EvernoteSDK"; sourceTree = "<group>"; };
 		FA059D021B070487008FE560 /* AFNetworking */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AFNetworking; path = ../../../SDKs/AFNetworking/AFNetworking; sourceTree = "<group>"; };
 		FA059D041B0704AA008FE560 /* UIKit+AFNetworking */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "UIKit+AFNetworking"; path = "../../../SDKs/AFNetworking/UIKit+AFNetworking"; sourceTree = "<group>"; };
+		FABBCF921B0A5A3500124924 /* FourSquareKit-iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "FourSquareKit-iOS"; path = "../../../SDKs/FourSquareKit/FourSquareKit-iOS"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FABBCF931B0A5A3500124924 /* FourSquareKit-iOS in Frameworks */,
 				FA059D051B0704AA008FE560 /* UIKit+AFNetworking in Frameworks */,
 				FA059D031B070487008FE560 /* AFNetworking in Frameworks */,
 				FA059D011B070449008FE560 /* EvernoteSDK in Frameworks */,
@@ -97,6 +100,7 @@
 		FA059CB71B067275008FE560 = {
 			isa = PBXGroup;
 			children = (
+				FABBCF921B0A5A3500124924 /* FourSquareKit-iOS */,
 				FA059D041B0704AA008FE560 /* UIKit+AFNetworking */,
 				FA059D021B070487008FE560 /* AFNetworking */,
 				FA059D001B070449008FE560 /* EvernoteSDK */,
@@ -500,6 +504,7 @@
 				FA059CEB1B067275008FE560 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA059CEC1B067275008FE560 /* Build configuration list for PBXNativeTarget "MovesInContact_APPTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +513,7 @@
 				FA059CEE1B067275008FE560 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
