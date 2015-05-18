@@ -25,6 +25,7 @@
 		FA059D031B070487008FE560 /* AFNetworking in Frameworks */ = {isa = PBXBuildFile; fileRef = FA059D021B070487008FE560 /* AFNetworking */; settings = {ATTRIBUTES = (Weak, ); }; };
 		FA059D051B0704AA008FE560 /* UIKit+AFNetworking in Frameworks */ = {isa = PBXBuildFile; fileRef = FA059D041B0704AA008FE560 /* UIKit+AFNetworking */; settings = {ATTRIBUTES = (Weak, ); }; };
 		FABBCF931B0A5A3500124924 /* FourSquareKit-iOS in Frameworks */ = {isa = PBXBuildFile; fileRef = FABBCF921B0A5A3500124924 /* FourSquareKit-iOS */; };
+		FABBCF941B0A7B0500124924 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA059CD61B067275008FE560 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -281,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FABBCF941B0A7B0500124924 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
